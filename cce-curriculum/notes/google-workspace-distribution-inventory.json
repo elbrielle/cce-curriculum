@@ -582,8 +582,8 @@
         {
           "source": "docs/resources/worksheets/wk2-bls-data-guide.pdf",
           "output": "assets/resources/worksheets/wk2-bls-data-guide.pdf",
-          "sha256": "12c6179dd5fdf22b5dc88a304e6892a4e9d324e806edcd2bcb720dbe26a8af9c",
-          "bytes": 161233
+          "sha256": "ccabde1c4b72ffe4f3e98cc7cc1bb037a42b85b69943e1efd46afd8e61326836",
+          "bytes": 210616
         },
         {
           "source": "docs/resources/worksheets/wk2-career-research-web-developer.pdf",
@@ -612,26 +612,26 @@
         {
           "source": "docs/resources/worksheets/wk2-it-salary-comparison-bilingual.pdf",
           "output": "assets/resources/worksheets/wk2-it-salary-comparison-bilingual.pdf",
-          "sha256": "b863b6f1cdd12c1510aa82ac6836326371f4c93c031733424986786c1a76f0ca",
-          "bytes": 277392
+          "sha256": "cd87154aae0978f35cd76dc3964e4110998a7f365bc624711006959867f140f5",
+          "bytes": 273383
         },
         {
           "source": "docs/resources/worksheets/wk2-it-salary-comparison-model.pdf",
           "output": "assets/resources/worksheets/wk2-it-salary-comparison-model.pdf",
-          "sha256": "ab015f161c17a15bfcc7ab5bd0ab82f4e94556579cb952e6e7ed9799dff0c23f",
-          "bytes": 114074
+          "sha256": "352e684b3619a4e6512638ba472322d61c797b3e60a6f2b4beed782741b88e92",
+          "bytes": 223851
         },
         {
           "source": "docs/resources/worksheets/wk2-it-salary-comparison.pdf",
           "output": "assets/resources/worksheets/wk2-it-salary-comparison.pdf",
-          "sha256": "2e4a01d7d038da9c3d6a2695ada98e2c3a6bcc57f1635063061da472048ce762",
-          "bytes": 135474
+          "sha256": "b9eefe4091412880df5e5ebb663b5fbc4b9b086b0eb212554c5618507b227704",
+          "bytes": 286837
         },
         {
           "source": "docs/resources/worksheets/wk2-salary-hoc-rubric.pdf",
           "output": "assets/resources/worksheets/wk2-salary-hoc-rubric.pdf",
-          "sha256": "80dfb75314b162e4e307b86e0898f6b56b07e0d22994b09ebc8293b13729aa57",
-          "bytes": 279769
+          "sha256": "1d2918d49b1294fcf79e1e9d86198e5d6902fd0cdff30f9add29b7f02840af0e",
+          "bytes": 268663
         }
       ],
       "editable_artifacts": [],

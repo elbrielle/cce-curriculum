@@ -9,7 +9,7 @@ language: en
 pages: 5
 orientation: portrait
 ---
-Use this same packet on Days 2, 3, and 5. On Day 2, choose three programming or IT careers available in H&L or Xello and complete only the app section on pages 1-3. On Day 3, add the four BLS fields and complete page 4. Save page 5 for Day 5.
+Use this same packet on Days 2, 3, and 5. On Day 2, choose three programming or IT careers available in H&L or Xello and complete pages 1-3. On Day 3, your teacher will show you how to read the dated career data on page 4. Save page 5 for Day 5.
 
 ## Career 1 Evidence Record
 
@@ -32,16 +32,7 @@ Use this same packet on Days 2, 3, and 5. On Day 2, choose three programming or 
 
 [[lines: 2]]
 
-### Day 3 - BLS national cross-check
-
-- BLS occupation title: _____________________________________________
-- National median: ____________________  Data year: ____________________
-- Typical entry education: __________________________________________
-- Outlook (% and years):
-
-[[lines: 1]]
-
-**Keep the labels.** A localized range and a national median are different measures. Do not replace one with the other.
+**Keep the labels.** A local pay range and a national median are different measures. Page 4 uses one dated national source so you can compare three careers fairly.
 
 [[pagebreak]]
 
@@ -66,15 +57,6 @@ Use this same packet on Days 2, 3, and 5. On Day 2, choose three programming or 
 
 [[lines: 2]]
 
-### Day 3 - BLS national cross-check
-
-- BLS occupation title: _____________________________________________
-- National median: ____________________  Data year: ____________________
-- Typical entry education: __________________________________________
-- Outlook (% and years):
-
-[[lines: 1]]
-
 [[pagebreak]]
 
 ## Career 3 Evidence Record
@@ -98,32 +80,33 @@ Use this same packet on Days 2, 3, and 5. On Day 2, choose three programming or 
 
 [[lines: 2]]
 
-### Day 3 - BLS national cross-check
-
-- BLS occupation title: _____________________________________________
-- National median: ____________________  Data year: ____________________
-- Typical entry education: __________________________________________
-- Outlook (% and years):
-
-[[lines: 1]]
-
 [[pagebreak]]
 
-## Compare the Three Careers
+## Compare Three Programming Careers
 
-**1. Which career has the highest app salary figure?** Name the figure and its measure.
+The U.S. Bureau of Labor Statistics (BLS) reports national career information. **Median annual pay** is the middle wage, not starting pay. **Projected growth** estimates how the number of jobs may change; it is not a promise of a job. Your teacher will model how to read one row before you compare the three.
+
+| BLS occupation | May 2025 U.S. median annual pay | Projected job growth, 2025-2035 |
+|---|---:|---:|
+| Software Developers | $135,980 | 10% |
+| Software Quality Assurance Analysts and Testers | $104,300 | 6% |
+| Web Developers | $92,650 | 4% |
+
+**Sources:** U.S. Bureau of Labor Statistics, Occupational Outlook Handbook, [Software Developers, Quality Assurance Analysts, and Testers](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm) and [Web Developers and Digital Designers](https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm), checked September 24, 2026. These are U.S. medians, not Irving or entry-level pay. Recheck before using this page in a later school year.
+
+**1. Which of these three careers has the highest national median?** Name the career and amount.
 
 [[lines: 2]]
 
-**2. Which career has the fastest BLS job growth?** Name the percent and projection years.
+**2. Which has the fastest projected growth?** Name the career, percent, and years.
 
 [[lines: 2]]
 
-**3. What preparation difference matters most to your decision?**
+**3. Which salary fact from pages 1-3 cannot be compared directly with the national medians above?** Name its source, place, or measure.
 
 [[lines: 2]]
 
-**4. Which career would you recommend to someone who shares your priorities?** Use at least two facts from the records.
+**4. Which career would you investigate next?** Use two facts from this page or your three app records, and name one thing the data cannot tell you.
 
 [[lines: 3]]
 

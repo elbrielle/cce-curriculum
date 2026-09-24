@@ -22,7 +22,7 @@
 
 ## Before Students Arrive
 
-- Verify the available H&L programming Hat titles. Open the supplied Web Developer model only if a student needs help locating a task or preparation detail. Keep BLS closed; Day 3 adds the national cross-check.
+- Verify the available H&L programming Hat titles. Open the supplied evidence-label model only if a student needs help locating a task or preparation detail. Keep BLS closed; Day 3 adds the national cross-check.
 - Plan for 1 Chromebook and 1 five-page salary packet per student, or 3 sheets per student when duplexed. Print 1 exit ticket per student plus 2 spares. Do not print the separate six-field research sheet.
 - Packet evidence is individual. Use one elbow partner for a 45-second oral rehearsal before the hiring case; partners do not share one packet.
 - If time slips, browse three available Hats instead of four and reduce whole-group sharing. Keep the three app-evidence records, hiring DOL, and 3-minute close.
@@ -74,9 +74,9 @@ Students choose three careers from the browse and complete only the **Day 2 - Ha
 - one task this worker does; and
 - common preparation: education, training, or certification.
 
-Leave every Day 3 BLS field blank. BLS comes tomorrow so students do not bounce between two sources or copy the same evidence into a second worksheet. Keep this word bank next to the preparation response: **degree, certificate, certification, training, experience, skill**. Complete frame: "A _____ commonly prepares by _____."
+Leave packet p. 4 for tomorrow. It already contains the dated national table; students do not copy its numbers onto their app career records. Keep this word bank next to the preparation response: **degree, certificate, certification, training, experience, skill**. Complete frame: "A _____ commonly prepares by _____."
 
-The Web Developer model may help a student see the difference between a task and a preparation detail. It is not a replacement packet and does not supply fixed live salary data.
+The evidence-label model may help a student see the difference between a task and a preparation detail. It is not a replacement packet and does not supply fixed live salary data.
 
 ---
 
@@ -108,6 +108,6 @@ Students submit the exit ticket and place the five-page packet in the class tray
 
 ## Differentiation
 
-- **Support:** Show the Web Developer model ([Printable PDF](../../resources/worksheets/wk2-career-research-web-developer.pdf)) only to help a student distinguish job tasks from preparation details. The student still completes the Day 2 sections in the shared packet.
+- **Support:** Show the [evidence-label model](../../resources/worksheets/wk2-it-salary-comparison-model.pdf) only when a student needs to distinguish a job task from preparation or label an app pay figure. The student still completes the same packet; the model is not another assignment.
 - **Extension:** Students who finish early research a 5th programming Hat not on the list: Data Scientist, DevOps Engineer, Machine Learning Engineer, or Backend Engineer.
 - **ELL:** Keep the point-of-use preparation word bank and complete frame visible. Preview these cognates: certification/certificación, training/capacitación, experience/experiencia, skill/habilidad.

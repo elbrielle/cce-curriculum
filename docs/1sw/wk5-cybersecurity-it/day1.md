@@ -15,20 +15,20 @@
 | **Time** | 50 minutes |
 | **Core source** | Cybersecurity Career Route Guide |
 | **Supplemental** | Live CyberSeek or H&L browse after a student-filter check |
-| **Materials** | FYF pp. 36-38, Route Guide, highlighters, projector |
+| **Materials** | FYF pp. 24 and 36-38, Route Guide, highlighters, projector |
 
 ## Before Students Arrive
 
 1. Post or print the [Cybersecurity Career Route Guide](../../resources/worksheets/wk5-cyberseek-pathway.pdf).
-2. Open FYF pp. 36-38 in Canvas.
+2. Open FYF p. 24 and pp. 36-38 in Canvas. Page 24 introduces the analyst's message-evidence work before students read career data.
 3. If using CyberSeek or H&L, test the exact path on a student Chromebook and write the retrieval date on the board. The fixed guide still carries the required evidence.
 4. Do not prepare a salary ladder or promise that students move from one title to the next. The three roles are examples of experience that can build toward cybersecurity.
 
-## Bellringer — Who Protects the System? (5 min)
+## Bellringer — What does the analyst notice? (10 min)
 
-**Prompt:** A school account is sending messages that its owner did not write. What needs to happen first: investigate the account, redesign the school's website, or buy every student a new device? Explain.
+Open FYF p. 24. Ask, "A message says your account will close today unless you click a link. Which clue should make a cybersecurity analyst pause?" Give students one minute to point to a clue on the workbook page, then take two answers. Name the difference between a clue they can see and a conclusion they have not proved. Do not have students fill FYF p. 25 today; tomorrow's seven-email investigation uses that page once.
 
-Expected reasoning: investigate the account and protect access before spending money or changing an unrelated system.
+Bridge: "That careful evidence work is one part of cybersecurity. Today we look at the career and how people prepare for it." Keep the workbook open as a concrete example of the job while introducing the career data.
 
 ## Activity 1 — District Context and Source Labels (10 min)
 
@@ -40,7 +40,7 @@ Use FYF pp. 36-38 to locate the district-customized Information Technology progr
 
 Model the labels on the Route Guide: May 2024 **U.S. median**, 2024-34 **projection**, and **typical** preparation. A median is not starting pay. A projection can change.
 
-## Activity 2 — Compare Three Roles and Build a Route (25 min)
+## Activity 2 — Compare Three Roles and Build a Route (20 min)
 
 Students read the three role cards in order:
 

@@ -4,7 +4,7 @@
 
 ## Week Purpose
 
-Students close the Information Technology block by studying one emerging cybersecurity occupation, making careful phishing decisions, applying work ethic and integrity to a community Cybersecurity Bootcamp plan, strengthening their career evidence, and finishing the 1st Six Weeks capstone.
+Students close the Information Technology block by opening the workbook's phishing clues, investigating the seven practice emails, studying one emerging cybersecurity occupation, applying work ethic and integrity to a community Cybersecurity Bootcamp plan, and finishing the 1st Six Weeks capstone. The workbook's phishing clues begin the cybersecurity sequence before students use the career data.
 
 The capstone is one compact evidence packet:
 
@@ -51,7 +51,7 @@ The statistics printed on FYF p. 34 are part of the workbook scenario. Do not re
 ### Before the week
 
 - Open FYF pp. 24-25 and 34-38 in Canvas.
-- Open the seven locked `Safe or Spoofed` email images and the teacher-only answer guidance.
+- Open FYF p. 24 for Day 1 and the seven locked `Safe or Spoofed` email images with teacher-only answer guidance for Day 2. Students write their seven decisions once on FYF p. 25.
 - Return or reopen Day 1 Cybersecurity Career Route Guides before Day 4.
 - Decide whether students will make the flyer and original symbol on paper, Canva, or Adobe Express. Paper is ready from the start.
 - Return the Week 0 Career Journey reflection before Day 5.
@@ -61,7 +61,7 @@ The statistics printed on FYF p. 34 are part of the workbook scenario. Do not re
 ### Print/post in teaching order
 
 1. [Cybersecurity Career Route Guide](../../resources/worksheets/wk5-cyberseek-pathway.pdf)
-2. [Phishing Red-Flag Checklist](../../resources/worksheets/wk5-red-flag-checklist.pdf)
+2. [Phishing Red-Flag Checklist](../../resources/worksheets/wk5-red-flag-checklist.pdf), only when a student needs an alternate writing surface instead of FYF p. 25
 3. [Cybersecurity Bootcamp Plan](../../resources/worksheets/wk5-bootcamp-planning-template.pdf)
 4. [Completed Bootcamp Model](../../resources/worksheets/wk5-bootcamp-model.pdf)
 5. [Career Journey Update](../../resources/worksheets/wk5-reflection-update-template.pdf) and [English/Spanish support](../../resources/worksheets/wk5-reflection-update-bilingual.pdf)
@@ -71,8 +71,8 @@ The statistics printed on FYF p. 34 are part of the workbook scenario. Do not re
 
 | Day | Topic | Core experience | Required evidence |
 |---|---|---|---|
-| 1 | Emerging Cybersecurity Work | Three-role route guide + BLS evaluation | Possible route + emerging-occupation evaluation |
-| 2 | Phishing and Integrity | FYF `Safe or Spoofed` + seven locked email images | Seven decisions, hardest-call reason, safe response, integrity connection |
+| 1 | Cybersecurity task and career context | FYF p. 24 clues, district program pages, and the dated three-role guide | Possible route + emerging-occupation evaluation |
+| 2 | Phishing and Integrity | FYF p. 25 `Safe or Spoofed` + seven locked email images | Seven workbook decisions, hardest-call reason, safe response, integrity connection |
 | 3 | Work Ethic | FYF Cybersecurity Bootcamp plan + flyer prototype | Plan, prototype, and quality/integrity check |
 | 4 | Cybersecurity Career Evidence | Recheck FYF evidence, revise the Day 1 route guide, and conference with a partner | Two dated facts, source limitation, judgment, and next step |
 | 5 | Transition Planning | Original symbol + Career Journey update | Four-piece Major 2 packet |
@@ -101,7 +101,7 @@ The statistics printed on FYF p. 34 are part of the workbook scenario. Do not re
 - H&L or CyberSeek unavailable: use the fixed route guide; no required evidence is lost.
 - H&L or CyberSeek unavailable on Day 4: use the fixed route guide and FYF pages; no required evidence is lost and no platform catch-up is needed.
 - Canva or Adobe unavailable: use paper with the same checklist and rubric.
-- Student absent Day 2: use the seven locked Canvas images and checklist; no partner is required.
+- Student absent Day 2: use the seven locked Canvas images and FYF p. 25; the checklist is an alternate if the workbook is unavailable or inaccessible. No partner is required.
 - Student absent Day 3: complete the same plan and paper flyer; use the model and self-check instead of peer feedback.
 - Missing Week 0 reflection: use the recovery prompts on the Career Journey update rather than assigning a zero.
 

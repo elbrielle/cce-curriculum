@@ -23,10 +23,8 @@ Use this field guide beside the English IT Salary Comparison packet. Write respo
 | Measure | Tipo de medida | Range, median, average, or other / Rango, mediana, promedio, u otra |
 | Figure | Número o cantidad | Include per year or per hour / Incluye por año o por hora |
 | Date viewed | Fecha de consulta | The day you viewed it / El día que lo consultaste |
-| National median | Mediana nacional | BLS figure plus data year / Número de BLS y año de datos |
-| Typical entry education | Educación típica para comenzar | Copy the labeled field / Copia el campo indicado |
-| Job outlook | Proyección de empleo | Percent plus projection years / Porcentaje y años de proyección |
-| Jobs or annual openings | Empleos o vacantes anuales | Copy the exact label / Copia la etiqueta exacta |
+| National median annual pay | Salario anual mediano nacional | Read packet p. 4; May 2025 U.S. figure / Lee la p. 4; cifra de EE. UU. de mayo de 2025 |
+| Projected job growth | Crecimiento del empleo proyectado | Read packet p. 4; percent for 2025-2035 / Lee la p. 4; porcentaje para 2025-2035 |
 
 [[pagebreak]]
 
@@ -35,7 +33,7 @@ Use this field guide beside the English IT Salary Comparison packet. Write respo
 - **range / rango:** the lowest and highest figures shown / los números menor y mayor
 - **median / mediana:** the middle value, not starting pay / el valor central, no el salario inicial
 - **source / fuente:** where the information came from / de dónde salió la información
-- **cross-check / verificación adicional:** another source kept under its own label / otra fuente que conserva su propia etiqueta
+- **projected / proyectado:** an estimate, not a promise / una estimación, no una promesa
 - **preparation / preparación:** education, training, certification, or experience / educación, capacitación, certificación, o experiencia
 
 ## Sentence Frames / Marcos de oración
@@ -48,7 +46,7 @@ H&L or Xello shows ____________________ for ____________________ in ____________
 
 [[lines: 3]]
 
-**Explain a difference / Explica una diferencia**
+**Explain a source difference / Explica una diferencia entre fuentes**
 
 The sources differ because they use a different career, geography, year, or measure. I notice
 

@@ -15,12 +15,13 @@
 | **Time** | 50 minutes |
 | **FYF workbook** | FYF pp. 24-25, `Safe or Spoofed?` |
 | **Locked visual source** | Climber Notes slides 2-8, embedded individually in Canvas |
-| **Materials** | Seven email images, Phishing Red-Flag Checklist, workbook or Canvas guide |
+| **Response home** | FYF p. 25; the Phishing Red-Flag Checklist is an alternate recording surface only when a student cannot use the workbook |
+| **Materials** | Seven Climber Notes email images, FYF pp. 24-25, optional alternate checklist |
 
 ## Before Students Arrive
 
 1. Open all seven locked email images in Canvas and confirm they are readable from the back of the room.
-2. Post or print the [Phishing Red-Flag Checklist](../../resources/worksheets/wk5-red-flag-checklist.pdf).
+2. Open FYF p. 25 for the seven decisions and explanations. Keep the [Phishing Red-Flag Checklist](../../resources/worksheets/wk5-red-flag-checklist.pdf) available only for a student who needs an alternate recording surface; do not assign both.
 3. Keep the answer guidance on the unpublished teacher page. The Climber Notes deck has no speaker-note key.
 4. Post the response sequence: **Pause. Verify independently. Report. Delete.**
 
@@ -57,7 +58,7 @@ After Email 4, pause for a Think-Pair-Share:
 
 > “The strongest clue is ___ because ___. The safe next action is ___.”
 
-Both partners record their own evidence. Students do not need to circle directly on a projected image; the checklist supplies accessible labeled fields.
+Both partners record their own evidence on FYF p. 25. A student using the alternate checklist records the same decisions there instead of copying them into the workbook.
 
 ## Activity 3 — Safe Practice Draft (7 min)
 
@@ -67,11 +68,7 @@ If time is tight, the draft becomes a two-line subject/sender/message sketch ins
 
 ## Exit — Professional Response and Integrity (5 min)
 
-Students finish three lines:
-
-1. The hardest email was ___ because ___.
-2. Instead of clicking or replying, I would ___.
-3. A cybersecurity worker shows integrity by ___ because ___.
+Students use the class discussion prompts at the bottom of FYF p. 25 to explain their hardest decision and a safe action. Ask one additional integrity question orally: "How does a cybersecurity worker protect people by reporting a suspicious message honestly?" Every student writes one sentence in the workbook margin: "A cybersecurity worker shows integrity by ___ because ___." Do not require a second exit sheet.
 
 ## Teacher Key
 
@@ -95,4 +92,4 @@ Students finish three lines:
 
 ## If a Student Is Absent or a Device Is Unavailable
 
-The seven locked images and checklist are the complete independent route. No live email account, link, or partner is required.
+The seven locked images and FYF p. 25 are the complete independent route. Use the alternate checklist when the workbook is unavailable or inaccessible. No live email account, link, or partner is required.

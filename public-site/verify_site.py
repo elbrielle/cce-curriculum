@@ -60,9 +60,10 @@ def verify(site: Path) -> None:
             f"day-{day_match.group(1)}",
             "index.html",
         ).as_posix()
+        label = "Optional alternate" if row.get("response_role") == "alternate" else "Make a copy"
         expected_copy_actions[output] = (
             row["google_doc"]["copy_url"],
-            f"Make a copy: {row['title'].rsplit(' | ', 1)[-1]}",
+            f"{label}: {row['title'].rsplit(' | ', 1)[-1]}",
         )
     if len(expected_copy_actions) != 180:
         problems.append(

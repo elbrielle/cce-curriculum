@@ -407,10 +407,11 @@ def student_copy_action_html(page: Page, routes: dict[str, dict]) -> str:
     row = routes[page_id]
     title = html.escape(row["title"].rsplit(" | ", 1)[-1])
     url = html.escape(row["google_doc"]["copy_url"], quote=True)
+    label = "Optional alternate" if row.get("response_role") == "alternate" else "Make a copy"
     return (
         '<p class="student-copy-action">'
         f'<a class="button primary" href="{url}" target="_blank" rel="noopener">'
-        f'Make a copy: {title}</a></p>'
+        f'{label}: {title}</a></p>'
     )
 
 

@@ -9,7 +9,7 @@ language: en
 pages: 2
 orientation: portrait
 ---
-Use this guide beside the five-page IT Salary Comparison packet. It shows how to label evidence without supplying numbers that may be outdated or belong to a different career.
+Use this guide beside the five-page IT Salary Comparison packet. Pages 1-3 hold app career records. Page 4 already contains the dated national comparison table.
 
 ## Model Career Evidence Record
 
@@ -23,13 +23,12 @@ Use this guide beside the five-page IT Salary Comparison packet. It shows how to
 - **Figure:** Copy the figure with its unit, such as per year or per hour.
 - **Date viewed:** Write today's date.
 
-### External national cross-check
+### National comparison on packet p. 4
 
-- **BLS occupation title:** Copy the BLS title. It may be broader than the career shown in the app.
-- **National median and data year:** Keep both together.
-- **Typical entry education:** Copy the labeled BLS field.
-- **Job outlook:** Record the percent and projection years.
-- **Jobs or openings:** Copy the exact field label; total jobs and annual openings are not the same.
+- **BLS occupation title:** Read the exact row title; it may be broader than an app career.
+- **National median and data year:** May 2025 U.S. median annual pay is a middle wage, not starting pay.
+- **Projected growth and years:** The 2025-2035 percent estimates change in jobs, not a job guarantee.
+- **Response:** Compare the three printed rows. Do not recopy the table onto pages 1-3.
 
 ### One-sentence task model
 

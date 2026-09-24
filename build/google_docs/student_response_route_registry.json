@@ -1055,6 +1055,7 @@
     {
       "route_id": "1SW-Wk2-Day3",
       "day_key": "1SW-Wk2-Day3",
+      "response_role": "alternate",
       "six_weeks": 1,
       "week": 2,
       "day": 3,
@@ -2468,6 +2469,7 @@
     {
       "route_id": "1SW-Wk5-Day2",
       "day_key": "1SW-Wk5-Day2",
+      "response_role": "alternate",
       "six_weeks": 1,
       "week": 5,
       "day": 2,

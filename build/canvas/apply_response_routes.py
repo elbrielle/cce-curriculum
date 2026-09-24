@@ -86,6 +86,7 @@ def build_index():
             "student_url": r["canvas"]["source_course"]["student"]["url"],
             "exit_doc_id": r["google_doc"]["id"],
             "exit_doc_title": r["google_doc"].get("live_title") or r["title"],
+            "response_role": r.get("response_role", "standard"),
             "worksheets": [],
             "onenote_url": onenote.get(r["day_key"]),
             "slides": slides.get(r["day_key"]),
@@ -130,11 +131,19 @@ def panel_html(day, exit_pdf_id):
             f'<a href="{w["copy_url"]}">Google Doc (make a copy)</a> · <a href="{w["edit_url"]}">teacher master</a> · {pdf}</li>'
         )
     exit_pdf = f' · <a href="/courses/{COURSE_ID}/files/{exit_pdf_id}/preview">PDF</a>' if exit_pdf_id else ""
-    rows.append(
-        f"<li><strong>Exit ticket</strong>: "
-        f'<a href="https://docs.google.com/document/d/{day["exit_doc_id"]}/copy">Google Doc (make a copy)</a> · '
-        f'<a href="https://docs.google.com/document/d/{day["exit_doc_id"]}/edit">teacher master</a>{exit_pdf}</li>'
-    )
+    if day["response_role"] == "alternate":
+        if day["exit_doc_id"] not in {w["doc_id"] for w in day["worksheets"]}:
+            rows.append(
+                f"<li><strong>Optional alternate to the lesson's response home</strong>: "
+                f'<a href="https://docs.google.com/document/d/{day["exit_doc_id"]}/copy">Google Doc (make a copy)</a> · '
+                f'<a href="https://docs.google.com/document/d/{day["exit_doc_id"]}/edit">teacher master</a>{exit_pdf}</li>'
+            )
+    else:
+        rows.append(
+            f"<li><strong>Exit ticket</strong>: "
+            f'<a href="https://docs.google.com/document/d/{day["exit_doc_id"]}/copy">Google Doc (make a copy)</a> · '
+            f'<a href="https://docs.google.com/document/d/{day["exit_doc_id"]}/edit">teacher master</a>{exit_pdf}</li>'
+        )
     sl = day.get("slides")
     if sl:
         parts = []
@@ -149,7 +158,7 @@ def panel_html(day, exit_pdf_id):
     return (
         f'<div id="{PANEL_ID}" class="cce-response-routes" style="border:1px solid #c9d1d9;border-left:5px solid #1f617a;border-radius:6px;padding:12px 16px;margin:12px 0;background:#f6f8fa">'
         f'<p style="margin:0 0 6px;font-weight:700;color:#1f617a">Student response routes for Day {day["day"]}</p>'
-        f'<p style="margin:0 0 6px">Students see one button per worksheet and one for the exit ticket. The default target is the Google Doc “make a copy” link. Printable PDFs and the OneNote route are here for teachers who use them.</p>'
+        f'<p style="margin:0 0 6px">{"Use the lesson’s workbook or packet response home. The Google Doc here is an alternate, not extra work." if day["response_role"] == "alternate" else "Students see one button per worksheet and one for the exit ticket. The default target is the Google Doc make-a-copy link."} Printable PDFs and the OneNote route are here for teachers who use them.</p>'
         f'<ul style="margin:0 0 6px 18px">{"".join(rows)}</ul>'
         f'<p style="margin:0 0 6px"><strong>OneNote:</strong> {onenote}</p>'
         f'<p style="margin:0;font-size:0.92em;color:#444">To change a route for your students: edit the Student Guide, select the button named above, and replace only its link (keep the label). Never send students to a different document than the one the label names.</p>'

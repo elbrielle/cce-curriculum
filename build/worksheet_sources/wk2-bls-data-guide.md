@@ -1,53 +1,28 @@
 ---
-title: How to Pull Your Numbers From a BLS Page
+title: How to Read One BLS Career Row
 slug: wk2-bls-data-guide
 kind: reference
 weeks: 1sw/wk2-programming-it
 audience: student
 variant_of:
 language: en
-pages: 2
+pages: 1
 orientation: portrait
 ---
-BLS is the Bureau of Labor Statistics. It is the government office that reports national job, preparation, pay, and outlook information. This guide gives you the four fields used in this lesson and a fixed-data route if the live BLS page does not load.
 
-## Match the app career title to the BLS occupation
+BLS is the **U.S. Bureau of Labor Statistics**. It reports national information about jobs. The three-career table you need is already on page 4 of your IT Salary Comparison packet. You do not need to search for the numbers again.
 
-| App career title (Hats & Ladders or Xello) | Closest BLS occupation for this lesson |
-|---|---|
-| Software Developer | Software Developers |
-| App Developer (Mobile) | Software Developers |
-| Game Developer | Software Developers |
-| Web Developer | Web Developers and Digital Designers |
+## Read one row
 
-App and game development are specializations. BLS reports them inside a broader occupation instead of giving each one a separate Quick Facts page. Keep the app career title in the app section and write the broader BLS title in the BLS section.
+**Software Developers: $135,980 May 2025 U.S. median annual pay; 10% projected job growth, 2025-2035.**
 
-## If the live BLS page opens
+- **U.S.** means the whole country, not Irving or Dallas.
+- **Median annual pay** is the middle yearly wage among workers in that occupation. It is not starting pay.
+- **Projected growth** estimates how the number of jobs may change over ten years. It does not promise anyone a job.
+- **May 2025** is the pay data date. **2025-2035** is the projection period. Keep the dates with the numbers.
 
-For each career, copy only these four fields from the Quick Facts box:
+## Compare fairly
 
-| Your worksheet row | The Quick Facts row to copy | What it looks like |
-|---|---|---|
-| BLS occupation title | Page title | The broader occupation name |
-| National median + data year | 2024 Median Pay | A dollar amount per year and 2024 |
-| Typical entry education | Typical Entry-Level Education | A school level or stated range |
-| Outlook percent + years | Job Outlook | A percent and 2024-2034 |
+The three rows on packet p. 4 use the same source, place, pay measure, and dates. You can compare those numbers. A figure from Hats & Ladders or Xello may use a different place or pay measure. Read its label before comparing it with this national table.
 
-Do not add Number of Jobs, annual openings, Employment Change, or a second job description.
-
-## If the live BLS page is unavailable
-
-Use this fixed card. It uses May 2024 national median pay and 2024-2034 national projections.
-
-| BLS occupation title | National median + year | Typical entry education | Outlook + years |
-|---|---:|---|---|
-| Software Developers | $133,080 (May 2024) | Bachelor's degree | 15%, 2024-2034 |
-| Web Developers and Digital Designers | $95,380 (May 2024 combined median) | Varies from high school diploma to bachelor's degree | 7%, 2024-2034 |
-
-**Source note:** U.S. Bureau of Labor Statistics, Occupational Outlook Handbook, [Software Developers](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm) and [Web Developers and Digital Designers](https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm). Accessed August 10, 2026.
-
-## Three things that trip people up
-
-- **Per year, not per hour.** The pay row shows both. Copy the year amount. The hourly amount is a much smaller number.
-- **Median is not starting pay.** Median means the middle of everyone in that career. A brand new worker usually earns less than the median.
-- **One BLS occupation can match more than one app career title.** That is expected. Do not invent a different BLS number for App Developer or Game Developer.
+**Source:** U.S. Bureau of Labor Statistics, [Software Developers, Quality Assurance Analysts, and Testers](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm), checked September 24, 2026. The class table also uses [Web Developers and Digital Designers](https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm).
