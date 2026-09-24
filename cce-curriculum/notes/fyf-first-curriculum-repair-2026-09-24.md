@@ -12,6 +12,7 @@ Date: 2026-09-24. Scope: 1SW Weeks 2 and 5, course 98060. This is a record of th
 
 | Day | Default student work | Added material and reason |
 |---|---|---|
+| 1SW Wk2 Day 2 | Existing salary packet pp. 1-3 for three app careers | The separate four-Hat notebook jot is removed. Students browse orally, then put career facts directly in the packet. |
 | 1SW Wk2 Day 3 | FYF p. 27 resilience chart; p. 4 of the existing salary packet | One modeled, dated three-career BLS table in the existing packet supports the salary comparison. Students do not navigate three BLS pages or recopy the app figures. |
 | 1SW Wk5 Day 1 | FYF p. 24 clue opener; one short Career Route Guide | The guide supplies one teacher-modeled analyst snapshot and a possible preparation path for emerging-occupation analysis. It is a one-page revision of the existing guide, not a new assignment. |
 | 1SW Wk5 Day 2 | FYF p. 25 for seven decisions, explanations, and one margin integrity sentence | Existing Climber Notes images are projected. The red-flag checklist is an accessibility alternate, never an additional response. |

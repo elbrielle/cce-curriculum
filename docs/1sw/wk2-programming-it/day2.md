@@ -5,7 +5,7 @@
 - **Topic:** Programming Careers
 - **Objective:** Students will identify programming career opportunities and research the work and preparation for three careers using Hats & Ladders or Xello (the district-localized app figure).
 - **TEKS:** d(1)(C), d(2)(A)
-- **Demonstration of Learning:** Lightweight four-Hat notes, the Day 2 app-evidence sections on pages 1-3 of the salary packet, and a supported hiring decision.
+- **Demonstration of Learning:** The Day 2 app-evidence sections on pages 1-3 of the existing salary packet and a supported hiring decision.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -15,8 +15,8 @@
 | **Objectives** | Browse four programming Hats; choose three careers; record each career's exact app career title, source labels, task, and common preparation on pages 1-3 of the salary packet |
 | **TEKS** | d(1)(C), d(2)(A) |
 | **5E Phases** | Engage: Warm-Up · Explore: Four programming Hats in the app · Explain: Day 2 app evidence on pages 1-3 · Evaluate: Exit Ticket |
-| **Deliverable** | Lightweight four-Hat notes, Day 2 app-evidence sections on pages 1-3, and a supported hiring decision |
-| **Materials** | Five-page IT Salary Comparison packet ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison.pdf)), established CCE notebook route (OneNote, physical, Canvas, or teacher-designated paper), *Find Your Future* workbook (the p. 38 Hat ratings students made on Day 1), Chromebooks, and projector |
+| **Deliverable** | Day 2 app-evidence sections on pages 1-3 and a supported hiring decision |
+| **Materials** | The existing five-page IT Salary Comparison packet ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison.pdf)), *Find Your Future* workbook (the p. 38 Hat ratings students made on Day 1), Chromebooks, and projector |
 
 ---
 
@@ -50,16 +50,16 @@ Quick share; listen for student passion. Bridge: "The people who actually build 
 
 Use the titles exactly as the live H&L Hat presents them. If a title is unavailable or differs, let students select another available programming Hat and record its exact displayed name.
 
-**Student task:** Students spend about three minutes per Hat. In a dated CCE notebook entry, they record only the exact displayed title and one job task or honest reaction for each. Use the same OneNote, physical, Canvas, or teacher-designated paper route established during onboarding. This is a quick browse, not a second research worksheet.
+**Student task:** Students spend about three minutes per Hat, then choose three for the packet. They speak about a possible task or reaction while browsing; the packet is the only place they record career facts today.
 
-**Active Monitoring:** Walk one fixed route. The target is one exact title and one task or reaction per row. Ask: "Which three careers deserve a closer look, and what made you choose them?"
+**Active Monitoring:** Ask, "Which three careers deserve a closer look, and what made you choose them?" Check exact titles and tasks in packet pp. 1-3 after students begin writing.
 
 **CFU before release:** Project page 1 of the packet. Students point to the exact title, platform, geography, measure, figure, and date fields they will complete next.
 
 !!! tip "Facilitation Tip"
     Many students may choose Game Developer because the title sounds familiar. Ask them to compare the displayed tasks, preparation, pay, and demand before deciding. Do not tell them which career is "better" before they inspect the app evidence.
 
-**DOK 3:** What conclusions can you draw about why Software Developer salaries are higher than Game Developer salaries even though both involve coding?
+**DOK 3:** How do the jobs' tasks and preparation differ, even when both involve coding?
 
 ---
 
