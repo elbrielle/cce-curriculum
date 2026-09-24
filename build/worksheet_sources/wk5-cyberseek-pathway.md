@@ -6,74 +6,50 @@ weeks: 1sw/wk5-cybersecurity-it
 audience: student
 variant_of:
 language: en
-pages: 2
+pages: 1
 orientation: portrait
 ---
 
-## Three Roles That Can Build Toward Cybersecurity
+## Work That Can Build Toward Cybersecurity
 
-These are examples, not a required ladder. People enter cybersecurity through different routes.
+These roles are examples, not a required ladder. People enter cybersecurity through different routes.
 
-| Role | What the worker does | Preparation commonly shown by BLS | May 2024 national median pay |
-|---|---|---|---|
-| **Computer User Support Specialist** | Helps people solve computer problems | Some college is common; some jobs accept high school plus relevant IT certifications | **$60,340** |
-| **Network and Computer Systems Administrator** | Installs and maintains networks and systems | Bachelor's degree is typical, but some employers accept other education plus experience | **$96,800** |
-| **Information Security Analyst** | Protects networks and systems, checks risks, and responds to breaches | Bachelor's degree plus related IT experience is typical; some enter with relevant training and certifications | **$124,910** |
+- **Computer User Support Specialist:** helps people solve computer problems.
+- **Network and Computer Systems Administrator:** installs and maintains networks.
+- **Information Security Analyst:** protects networks and systems and responds to risks.
 
-**Source note:** U.S. Bureau of Labor Statistics Occupational Outlook Handbook, May 2024 national median wages and 2024-34 outlook. These are not starting salaries and are not DFW-localized salaries. Retrieved August 6, 2026.
+**Analyst snapshot (BLS):** May 2025 U.S. median annual pay **$129,180**; typical preparation is a bachelor's degree plus related experience, although other routes exist. Projected job growth is **21% from 2025 to 2035**, compared with about **3%** for all occupations.
 
-Information Security Analyst employment is projected to grow **29% from 2024 to 2034**. That is a projection, not a promise that every applicant will get a job.
+**Source:** U.S. Bureau of Labor Statistics, Occupational Outlook Handbook, Information Security Analysts, checked September 24, 2026. The median is not Irving starting pay; growth is a projection, not a job promise.
 
 ## Is Information Security Analyst an Emerging Career?
 
-Use the source note and table to make a careful judgment.
+**One job duty or preparation fact I noticed:**
 
-**Evidence 1 — change:** The projected growth is ______%. The all-occupations comparison is about **3%** for the same period.
+[[lines: 1]]
 
-**Evidence 2 — work or preparation:**
+**My judgment:** This occupation **does / does not** show evidence of being emerging because its projected growth is ___% compared with about 3% for all occupations, and
 
-[[lines: 2]]
+[[lines: 1]]
 
-**My judgment:** Information Security Analyst **does / does not** show evidence of being an emerging career because
+**One limit of this evidence:** Circle one.
 
-[[lines: 3]]
+national, not Irving pay · projection, not guarantee · median, not starting pay
 
-**One limit of this evidence:** Circle one, then explain if needed.
+## Sketch One Possible Route
 
-national, not DFW-local · projection, not guarantee · median, not starting pay · another limit: ____________________
+**Now:** One skill I can practice in middle school is
 
-## Build One Possible Route
+[[lines: 1]]
 
-**1. Now:** One skill I can practice in middle school is
+**High school:** One Irving ISD option on FYF pp. 36-37 I want to investigate is
 
-[[lines: 2]]
+[[lines: 1]]
 
-**2. High school:** One Irving ISD option I want to investigate is
-
-[[lines: 2]]
-
-**3. After high school:** Circle one route you want to compare today:
+**After high school:** Circle one option I want to learn more about.
 
 community college · 4-year college · industry training/certification · military training · work plus training
 
-**4. First role:** A support, network, or other IT role that could build experience is
+**My current view:** I am **interested / unsure / not interested** in cybersecurity because
 
-[[lines: 2]]
-
-**5. Later goal:** A cybersecurity role I may want to reach is
-
-[[lines: 2]]
-
-## Use Evidence
-
-One fact from the table that supports my route:
-
-[[lines: 2]]
-
-One question I still need to research:
-
-[[lines: 2]]
-
-I am currently: **interested / unsure / not interested** in cybersecurity because
-
-[[lines: 3]]
+[[lines: 1]]

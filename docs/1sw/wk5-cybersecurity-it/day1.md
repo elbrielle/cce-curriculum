@@ -5,7 +5,7 @@
 - **Topic:** Emerging Cybersecurity Work
 - **Objective:** Students will research and evaluate an emerging cybersecurity occupation by comparing duties, common preparation, pay, projected growth, and one source limitation.
 - **TEKS:** d(1)(D)
-- **Demonstration of Learning:** Students complete one possible cybersecurity route and use two dated BLS facts plus one limitation to explain why Information Security Analyst qualifies as an emerging occupation.
+- **Demonstration of Learning:** Students use the teacher-modeled analyst snapshot to explain projected growth and one data limit, then sketch a possible route on the one-page guide.
 <!-- CCE DAILY CONTRACT END -->
 
 ## Lesson Overview
@@ -13,14 +13,14 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Core source** | Cybersecurity Career Route Guide |
+| **Core source** | One-page [Cybersecurity Career Route Guide](../../resources/worksheets/wk5-cyberseek-pathway.pdf) with the dated BLS snapshot supplied |
 | **Supplemental** | Live CyberSeek or H&L browse after a student-filter check |
-| **Materials** | FYF pp. 24 and 36-38, Route Guide, highlighters, projector |
+| **Materials** | FYF p. 24 and pp. 36-37, Route Guide, highlighters, projector |
 
 ## Before Students Arrive
 
 1. Post or print the [Cybersecurity Career Route Guide](../../resources/worksheets/wk5-cyberseek-pathway.pdf).
-2. Open FYF p. 24 and pp. 36-38 in Canvas. Page 24 introduces the analyst's message-evidence work before students read career data.
+2. Open FYF p. 24 and pp. 36-37 in Canvas. Page 24 introduces the analyst's message-evidence work before students read career data.
 3. If using CyberSeek or H&L, test the exact path on a student Chromebook and write the retrieval date on the board. The fixed guide still carries the required evidence.
 4. Do not prepare a salary ladder or promise that students move from one title to the next. The three roles are examples of experience that can build toward cybersecurity.
 
@@ -32,15 +32,15 @@ Bridge: "That careful evidence work is one part of cybersecurity. Today we look 
 
 ## Activity 1 — District Context and Source Labels (10 min)
 
-Use FYF pp. 36-38 to locate the district-customized Information Technology programs and IBC explanation. Distinguish three ideas:
+Use FYF pp. 36-37 to locate the district-customized Information Technology programs and IBC explanation. Distinguish three ideas:
 
 - a **program of study** is a high-school route;
 - an **occupation** is work people are paid to do; and
 - a **credential** is evidence of a skill or requirement, not a job guarantee.
 
-Model the labels on the Route Guide: May 2024 **U.S. median**, 2024-34 **projection**, and **typical** preparation. A median is not starting pay. A projection can change.
+Model the labels on the Route Guide: May 2025 **U.S. median**, 2025-35 **projection**, and **typical** preparation. A median is not starting pay. A projection can change. Students read the printed snapshot; they do not need to navigate BLS or copy data into another table.
 
-## Activity 2 — Compare Three Roles and Build a Route (20 min)
+## Activity 2 — Compare Work and Sketch a Route (20 min)
 
 Students read the three role cards in order:
 
@@ -48,14 +48,14 @@ Students read the three role cards in order:
 2. Network and Computer Systems Administrator; and
 3. Information Security Analyst.
 
-They complete the five route steps, then highlight:
+They complete the three route stages, then highlight:
 
 - one duty that changes across the roles;
 - one preparation fact;
-- the Information Security Analyst median and growth projection; and
+- the analyst growth comparison; and
 - one limitation of the evidence.
 
-**Stop and Jot:** “The source helps me understand ___, but it does not tell me ___.”
+**Stop and Jot:** “The source helps me understand ___, but it does not tell me ___.” Point to the printed snapshot as the source; no extra research sheet is assigned.
 
 Useful limitations include national rather than DFW data, median rather than starting pay, one occupation title rather than every cybersecurity role, and a projection rather than a guarantee.
 
@@ -67,16 +67,15 @@ H&L or CyberSeek may be opened as a dated comparison if time remains. Students l
 
 ## Exit — Emerging Occupation Evaluation (5 min)
 
-Students write four concise lines:
+Students complete the emerging-career prompt on the same one-page guide:
 
-1. Information Security Analyst is an emerging occupation because ___% projected growth is higher than the all-occupations projection of about 3%.
-2. One common preparation fact is ___.
-3. One duty is ___.
-4. One reason the evidence could change or be incomplete is ___.
+1. The 21% projected growth is higher than the all-occupations projection of about 3%.
+2. One duty or preparation fact supports the judgment.
+3. One circled limit keeps the claim honest.
 
 ## Teacher Key and Monitoring
 
-- BLS: $124,910 May 2024 U.S. median; bachelor's degree plus related experience typical; 29% projected growth for 2024-34; about 16,000 openings per year on average.
+- BLS: $129,180 May 2025 U.S. median; bachelor's degree plus related experience typical; 21% projected growth for 2025-35 versus about 3% for all occupations. These facts are printed on the guide.
 - The Route Guide is not a fixed ladder. Accept a different possible route when the student labels it honestly.
 - Reject claims that the median is starting pay, the occupation is entry-level for everyone, or a certification guarantees a job.
 - A student may conclude “not interested” and still demonstrate mastery.

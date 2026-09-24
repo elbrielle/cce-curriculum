@@ -17,7 +17,7 @@ Paper, Canva, and Adobe Express are equal routes. A teacher may fabricate select
 
 ## Week Learning Target
 
-I can use evidence to explain why cybersecurity work is changing, identify work ethic and integrity in cybersecurity decisions, strengthen a career judgment, and describe two steps toward a goal after high school.
+I can use evidence to explain why cybersecurity work is changing, identify work ethic and integrity in cybersecurity decisions, compare career fit, and describe two steps toward a goal after high school.
 
 ## Week Demonstration of Learning
 
@@ -26,6 +26,7 @@ Students submit the **Cybersecurity Capstone Evidence Portfolio**. This is **Maj
 ## TEKS Alignment
 
 - **d(1)(D):** Research and evaluate emerging occupations related to career interests. Students use dated BLS evidence to evaluate Information Security Analyst growth, preparation, and one limitation of the source.
+- **d(1)(C):** Compare career options with interests. On Day 4, students match real tasks to three IT roles and explain a possible fit in FYF p. 38.
 - **d(4)(F):** Define and identify workplace examples of work ethic, integrity, dedication, and perseverance. Students analyze professional phishing responses and document work ethic and integrity choices in the bootcamp plan and flyer.
 - **d(3)(A):** Describe academic requirements for moving from middle school to high school and from high school to a career or postsecondary education. Students name one high-school action and one postsecondary preparation step for the goal represented by their original symbol.
 
@@ -42,7 +43,7 @@ The statistics printed on FYF p. 34 are part of the workbook scenario. Do not re
 
 ### Current Career and Safety Cross-Checks
 
-- BLS Information Security Analysts: **$124,910 May 2024 U.S. median**, bachelor's degree plus related experience typical, and **29% projected employment growth from 2024 to 2034**. These are national figures and projections, not starting pay or a job guarantee.
+- BLS Information Security Analysts: **$129,180 May 2025 U.S. median**, bachelor's degree plus related experience typical, and **21% projected employment growth from 2025 to 2035**. These are national figures and projections, not starting pay or a job guarantee. The one-page Day 1 guide supplies and models them; Day 4 does not reassign them.
 - CISA Secure Our World: recognize and report phishing, use strong passwords, turn on multifactor authentication, and update software. For a suspicious message, pause, verify through a trusted route, report, and delete.
 - The current Irving ISD Singley Academy page names **Cybersecurity** in the School of Innovative Technology. The workbook remains the source for its printed certification and CTSO details.
 
@@ -52,7 +53,7 @@ The statistics printed on FYF p. 34 are part of the workbook scenario. Do not re
 
 - Open FYF pp. 24-25 and 34-38 in Canvas.
 - Open FYF p. 24 for Day 1 and the seven locked `Safe or Spoofed` email images with teacher-only answer guidance for Day 2. Students write their seven decisions once on FYF p. 25.
-- Return or reopen Day 1 Cybersecurity Career Route Guides before Day 4.
+- Return the one-page Day 1 Cybersecurity Career Route Guide as a reference before Day 4. Students write their Day 4 thought once in FYF p. 38.
 - Decide whether students will make the flyer and original symbol on paper, Canva, or Adobe Express. Paper is ready from the start.
 - Return the Week 0 Career Journey reflection before Day 5.
 - Post the 16-point capstone rubric before students begin the Day 3 evidence.
@@ -71,10 +72,10 @@ The statistics printed on FYF p. 34 are part of the workbook scenario. Do not re
 
 | Day | Topic | Core experience | Required evidence |
 |---|---|---|---|
-| 1 | Cybersecurity task and career context | FYF p. 24 clues, district program pages, and the dated three-role guide | Possible route + emerging-occupation evaluation |
+| 1 | Cybersecurity task and career context | FYF p. 24 clues, district program pages, and a teacher-modeled analyst snapshot | One-page possible route + emerging-occupation evaluation |
 | 2 | Phishing and Integrity | FYF p. 25 `Safe or Spoofed` + seven locked email images | Seven workbook decisions, hardest-call reason, safe response, integrity connection |
 | 3 | Work Ethic | FYF Cybersecurity Bootcamp plan + flyer prototype | Plan, prototype, and quality/integrity check |
-| 4 | Cybersecurity Career Evidence | Recheck FYF evidence, revise the Day 1 route guide, and conference with a partner | Two dated facts, source limitation, judgment, and next step |
+| 4 | Cybersecurity Career Fit | Match three work tasks to roles and use FYF pp. 36-38 | One p. 38 thought with a role, reason, and next question or school action |
 | 5 | Transition Planning | Original symbol + Career Journey update | Four-piece Major 2 packet |
 
 ## District Instructional Moves
@@ -84,7 +85,7 @@ The statistics printed on FYF p. 34 are part of the workbook scenario. Do not re
 - **Think-Pair-Share:** Day 2, students compare the hardest email call. Each partner must name a clue and a safe next action.
 - **QSSSA:** Day 3 work-ethic prompt. **Question:** What would a sponsor notice your team doing behind the scenes? **Stem:** “They would notice us ___ because ___.” **Signal:** written task card. **Share:** partner, then selected class responses. **Assess:** listen for preparation, checking accuracy, privacy, or revision—not vague claims about working hard.
 - **Active Monitoring:** Day 3, track one audience, two actionable learning goals, accurate advice, safe sign-up, and one integrity choice.
-- **Partner Evidence Conference:** Day 4, one student reads the judgment while the other points to the two source facts and asks what the source does not show. Students switch and make one visible revision.
+- **Partner Role Comparison:** Day 4, partners match three real tasks to roles, explain a possible fit, and ask what they need to learn before deciding.
 - **Stop and Jot:** Day 5, students write the two transition steps before opening a design tool.
 
 ## Emergent Bilingual and Accessibility Supports
@@ -99,7 +100,7 @@ The statistics printed on FYF p. 34 are part of the workbook scenario. Do not re
 ## Absence and Platform Rules
 
 - H&L or CyberSeek unavailable: use the fixed route guide; no required evidence is lost.
-- H&L or CyberSeek unavailable on Day 4: use the fixed route guide and FYF pages; no required evidence is lost and no platform catch-up is needed.
+- H&L unavailable on Day 4: use the three role descriptions and FYF pp. 36-38; the same p. 38 career-fit thought is still possible.
 - Canva or Adobe unavailable: use paper with the same checklist and rubric.
 - Student absent Day 2: use the seven locked Canvas images and FYF p. 25; the checklist is an alternate if the workbook is unavailable or inaccessible. No partner is required.
 - Student absent Day 3: complete the same plan and paper flyer; use the model and self-check instead of peer feedback.

@@ -60,7 +60,7 @@ def verify(site: Path) -> None:
             f"day-{day_match.group(1)}",
             "index.html",
         ).as_posix()
-        label = "Optional alternate" if row.get("response_role") == "alternate" else "Make a copy"
+        label = {"alternate": "Optional alternate", "reference": "Reference copy"}.get(row.get("response_role"), "Make a copy")
         expected_copy_actions[output] = (
             row["google_doc"]["copy_url"],
             f"{label}: {row['title'].rsplit(' | ', 1)[-1]}",

@@ -2367,6 +2367,7 @@
     {
       "route_id": "1SW-Wk5-Day4",
       "day_key": "1SW-Wk5-Day4",
+   "response_role": "reference",
       "six_weeks": 1,
       "week": 5,
       "day": 4,

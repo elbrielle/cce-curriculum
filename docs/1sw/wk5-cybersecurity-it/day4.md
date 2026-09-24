@@ -1,11 +1,11 @@
-# Day 4: Strengthen Cybersecurity Career Evidence
+# Day 4: Which Cybersecurity Work Fits Me?
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Cybersecurity Career Evidence
-- **Objective:** Students will research and evaluate an emerging cybersecurity occupation by revisiting dated career evidence, checking its limits, and strengthening a defensible judgment.
-- **TEKS:** d(1)(D)
-- **Demonstration of Learning:** Students revise the Cybersecurity Career Route Guide with two dated facts, one source limitation, a judgment about fit or next investigation, and one next step.
+- **Topic:** Cybersecurity career fit
+- **Objective:** Students will compare real IT work and district pathways, then explain one career interest or question using evidence they already studied.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Students use the reflection space on FYF p. 38 to name a role that interests them or does not fit, one reason, and one next question or school action.
 <!-- CCE DAILY CONTRACT END -->
 
 ## Lesson Overview
@@ -13,84 +13,48 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **FYF workbook** | FYF pp. 36-38 and the Information Technology App Exploration |
-| **Required platform task** | None; H&L and live web exploration are optional |
-| **Response Home** | The teacher-assigned Day 1 Cybersecurity Career Route Guide, on paper or in the class digital response home |
+| **Response home** | FYF p. 38, “Jot down your thoughts on this cluster” |
+| **Reference** | FYF pp. 36-37 and the same one-page [Cybersecurity Career Route Guide](../../resources/worksheets/wk5-cyberseek-pathway.pdf) from Day 1 |
+| **Optional app** | H&L Information Technology Cluster through ClassLink, only if student access is working |
 
 ## Before Students Arrive
 
-1. Return or reopen each student's Day 1 [Cybersecurity Career Route Guide](../../resources/worksheets/wk5-cyberseek-pathway.pdf).
-2. Open FYF pp. 36-38 in the locked Canvas student guide.
-3. Post the source labels: **May 2024 U.S. median**, **2024-34 projection**, **typical preparation**, and **possible route**.
-4. If offering CyberSeek or H&L as enrichment, test the student-filtered route and record the date. The fixed guide remains the complete evidence route.
+1. Open FYF pp. 36-38. Return the Day 1 career guide as a reference; students do not fill out another copy.
+2. Project three brief work tasks: help a user fix a computer problem; maintain a school network; investigate a suspicious message.
+3. If using H&L, test the ClassLink tile and the Information Technology Cluster on a student Chromebook. Keep the role tasks ready either way.
+4. Tell students that the BLS numbers on the guide were taught on Day 1. Today they use the work descriptions and their own interests; no new data collection is required.
 
-## Bellringer — Stronger Evidence (5 min)
+## Do Now: Match the Work (5 min)
 
-Project two statements:
+Ask, “Which of the three tasks would you want to try for one day? What makes you say that?” Students point to one task and tell a partner one reason. Invite an “none of these” answer with a reason.
 
-- “Cybersecurity sounds cool.”
-- “I would investigate cybersecurity because the work protects networks, but the BLS median is national and does not show a starting salary in Irving.”
+## Activity 1: Find the School Connection (10 min)
 
-Ask: **“Which statement would help someone make a better career decision? What makes it stronger?”**
+Open FYF pp. 36-37. Ask students to find the Cybersecurity program of study and one related school option or experience. Explain that a Personal Graduation Plan can change as interests change. Ask, “Which option might help you test your interest before deciding on a career?” Students point to evidence on the workbook page; they do not copy the page into a new sheet.
 
-Listen for a source fact, a limitation, and a reasoned decision. Explain that today's job is to strengthen evidence, not to force an interested answer.
+## Activity 2: Compare the Three Roles (15 min)
 
-## Activity 1 — Recheck the District Career Context (10 min)
+Use the role descriptions on the Day 1 guide. Match each projected task to Computer User Support Specialist, Network and Computer Systems Administrator, or Information Security Analyst. Then ask partners to rank the roles by personal interest. Partner A gives a reason from a work duty; Partner B asks, “What might you need to learn or try before deciding?” Switch roles. The teacher models: “I am curious about investigating suspicious messages, but I want to know how much of an analyst's day is spent explaining results to others.”
 
-Students review FYF pp. 36-38 and identify:
+## Activity 3: Explore and Reflect in FYF (15 min)
 
-- one Irving ISD Information Technology program or experience;
-- one type of IT work shown in the chapter; and
-- one question the app exploration cannot answer by itself.
+If H&L works, open it through ClassLink and follow the **Information Technology Cluster** activities on FYF p. 38. Students can watch the Cluster Tour, try Game Time, and consider one Hat that fits and one that does not. Stop when ten minutes remain so everyone can write.
 
-If H&L is live, students may inspect the Information Technology cluster after the fixed evidence is open. Ratings, favorites, and exact live titles are not required.
+If H&L is unavailable, reread the three work tasks and the district programs on pp. 36-37. In either case, students write in the **“Jot down your thoughts on this cluster”** space on FYF p. 38. They name one role they might try or reject, give one reason, and add one question or school action. An emoji or drawing may support the words but does not replace the reason.
 
-## Activity 2 — Strengthen the Day 1 Career Route Guide (20 min)
+## Close: One Useful Next Step (5 min)
 
-Students reopen their Day 1 route guide and complete or revise four evidence jobs:
+Invite students to share a question or school action, without requiring them to share a personal career preference. Ask, “What could you do in school to learn whether this work fits you?” FYF p. 38 is the exit evidence. Do not collect a second BLS comparison or a second career guide.
 
-1. underline two dated facts about Information Security Analysts;
-2. label each fact accurately, such as national median, typical preparation, or projected growth;
-3. name one source limitation; and
-4. revise the judgment so it explains **interested, unsure, or not interested** with evidence.
+## Teacher Key and Misconceptions
 
-Model one complete response:
+- User support helps people solve computer problems; network administration maintains systems; information security analysts protect systems and investigate risks.
+- A school program is a way to explore and prepare, not a guaranteed job path.
+- “Not interested” can be a strong answer when a student explains the reason. Avoid treating salary alone as proof of fit.
+- Day 1 already addressed the dated analyst snapshot. Refer to it only when students ask; do not reassign the figures.
 
-> “I am unsure about Information Security Analyst because the work interests me, but the guide says related experience is typical. The May 2024 median is national, so I still need a local source and an entry-level route.”
+## Supports and Recovery
 
-## Activity 3 — Partner Evidence Conference (10 min)
-
-Partners use two roles:
-
-- **Reader:** reads the judgment exactly as written.
-- **Evidence Checker:** points to the two source facts and asks, **“What does this source not tell us?”**
-
-Students switch roles, then make one visible revision. A student may use the teacher model, a private conference, or a written checklist instead of sharing a personal interest aloud.
-
-## Activity 4 — Private Next Step (5 min)
-
-Students add one next step to the same response home:
-
-- a high-school program, course, organization, or experience to investigate;
-- a question for a counselor or teacher; or
-- a more local or entry-level source to find later.
-
-**Sentence stem:** “My next step is to ___ because I still need to know ___.”
-
-## Teacher Guidance
-
-- Accept **interested**, **unsure**, or **not interested** when the evidence supports the judgment.
-- Keep the labels attached to every number. The salary figure is a May 2024 U.S. median, not a starting or Irving salary.
-- Treat a projection as evidence about likely change, not a promise that every student will get a job.
-- Do not require open web search, a favorite, a rating, or a Xello profile action.
-
-## Supports
-
-- Word bank: **median, projected, typical, limitation, judgment, route**.
-- Let students highlight the two facts before writing.
-- Offer the frame: “The source says ___. This matters because ___. It does not tell me ___.”
-- Allow oral rehearsal, speech-to-text, text-to-speech, bilingual planning, or a teacher-recorded response.
-
-## If a Platform Is Unavailable or a Student Is Absent
-
-The fixed route guide and FYF pages are the normal complete route. An absent student completes the same four evidence jobs and private next step. No profile edit, favorite, or platform catch-up is required.
+- Read the three tasks aloud and let students point before speaking. Offer the words **help, maintain, protect, investigate** and the stem “I might try ___ because ___.”
+- Let students rehearse with a partner, draw a small symbol, or dictate their p. 38 thought. Keep the same career-fit target.
+- For an absent student, FYF pp. 36-38 and the three printed role descriptions are sufficient. H&L is optional. If the workbook space is inaccessible, record the same thought in the student's assigned accessible format and collect it once.
