@@ -20,7 +20,7 @@ This is the coursewide source of truth for graded work. A polished weekly produc
 | Minor 2 | Week 2 | IT Salary Comparison and Career-Fit Reflection | 20-point salary/career-fit rubric | Use labeled sources and measures; Code.org completion is not scored. |
 | Minor 3 | Week 4 | Help Desk Program Evidence and Career Connection | 16-point Help Desk Evidence rubric | Live demo and hardware success are practice, not the only evidence. |
 | Major 1 | Week 3 | App Design and Emerging-Career Evidence Packet | 16-point App Design rubric | Score the individual packet; the pitch is communication practice. |
-| Major 2 | Week 5 | Cybersecurity Capstone Evidence Portfolio | 16-point Capstone rubric | Paper/digital fabrication routes are equal; Xello and H&L clicks are not scored. |
+| Major 2 | Week 5 | Canva Cybersecurity Bootcamp Flyer | 16-point flyer rubric | One final flyer upload. FYF p. 35 holds the plan; no four-part portfolio or duplicate plan submission. A teacher-approved accessible flyer format uses the same rubric. |
 
 **Formative only:** Week 1 Robots for Crayons team presentation and daily tickets. Team participation may feed feedback, but it is not an individual grade.
 

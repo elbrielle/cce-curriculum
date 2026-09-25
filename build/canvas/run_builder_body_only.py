@@ -86,7 +86,7 @@ async def _find_existing(client, real_send, request, course_prefix, name, folder
             return None
         matches += [f for f in r.json() if (f.get("display_name") or f.get("filename")) == name]
         url = r.links.get("next", {}).get("url")
-    return matches[0] if matches else None
+    return max(matches, key=lambda file: file.get("updated_at") or "") if matches else None
 
 
 def install(dry_run: bool, out_dir: Path | None):

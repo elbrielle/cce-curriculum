@@ -113,12 +113,16 @@ def main() -> None:
         and len(student_rows) == 180,
         "current non-mutating student response-route draft must contain 180 rows",
     )
+    linked_student_rows = [
+        row for row in student_rows if row.get("response_role") != "supplemental"
+    ]
     student_copy_urls = {
-        row.get("google_doc", {}).get("copy_url") for row in student_rows
+        row.get("google_doc", {}).get("copy_url") for row in linked_student_rows
     }
-    # A multi-day packet keeps one Doc across the days that use it, so unique URLs may be fewer than 180 rows.
+    # Supplemental teacher resources stay in Drive without becoming required student links.
+    # A multi-day packet can also share one Doc across its days.
     require(
-        178 <= len(student_copy_urls) <= 180
+        len(linked_student_rows) - 2 <= len(student_copy_urls) <= len(linked_student_rows)
         and all(isinstance(url, str) and COPY_URL.fullmatch(url) for url in student_copy_urls),
         "current student response /copy URLs must be complete (178..180 unique)",
     )

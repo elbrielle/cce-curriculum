@@ -1,11 +1,11 @@
-# Day 5: 1st Six Weeks Capstone
+# Day 5: Improve and Submit the Cybersecurity Flyer
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Transition Planning
-- **Objective:** Students will describe academic requirements for moving from middle school to high school and from high school to a career or postsecondary goal using an original symbol and evidence from the six weeks.
+- **Topic:** Transition Planning and Digital Communication
+- **Objective:** Students will describe an academic requirement for high school and a typical career preparation requirement, then revise and submit their Canva flyer.
 - **TEKS:** d(3)(A)
-- **Demonstration of Learning:** Students submit the four-piece Cybersecurity Capstone Evidence Portfolio with a specific postsecondary goal, one high-school action, one postsecondary preparation step, and a Career Journey update.
+- **Demonstration of Learning:** Two requirement statements in the margin beside FYF p. 36's Personal Graduation Plan explanation, and one final Canva flyer submitted to Major 2. The flyer is the only graded product; the requirement statements are formative evidence for d(3)(A).
 <!-- CCE DAILY CONTRACT END -->
 
 ## Lesson Overview
@@ -13,87 +13,50 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Major assessment** | Major 2: Cybersecurity Capstone Evidence Portfolio |
-| **Scoring** | 16-point Capstone Evidence Rubric |
-| **Equal design routes** | Paper, Canva, or Adobe Express; fabrication is optional |
+| **Workbook response home** | FYF p. 36 margin for two academic requirements |
+| **Reference** | [Day 1 Career Route Guide](../../resources/worksheets/wk5-cyberseek-pathway.pdf) for typical analyst preparation |
+| **Major 2 submission** | One final PNG or PDF in the [Canva Cybersecurity Bootcamp Flyer assignment](https://learn.irvingisd.net/courses/98060/assignments/3094826) |
+| **Scoring** | [16-point flyer rubric](../../resources/worksheets/wk5-capstone-portfolio-rubric.pdf); no four-part portfolio |
 
 ## Before Students Arrive
 
-1. Return the Week 0 Career Journey reflections and the Day 3 plan/flyer.
-2. Post the [Career Journey Update](../../resources/worksheets/wk5-reflection-update-template.pdf), [English/Spanish support](../../resources/worksheets/wk5-reflection-update-bilingual.pdf), and [Capstone Rubric](../../resources/worksheets/wk5-capstone-portfolio-rubric.pdf).
-3. Remind students to retrieve the CCE Six-Weeks Evidence Log from the CCE binder or teacher-designated digital folder named in Week 0. The log stays with the student and is not part of the Major submission.
-4. Put paper, pencils, markers, and a two-shape idea menu out before class. Canva or Adobe is optional.
-5. Do not build the lesson around a Glowforge/xTool queue. A trained authorized operator may fabricate selected examples later under the campus SOP; students submit the design itself.
+1. Open FYF p. 36, the Day 1 Career Route Guide, and the Canva drafts students began on Day 3.
+2. Model the two requirements: courses that meet high-school graduation requirements, and the guide's typical analyst preparation of a bachelor's degree plus related experience. Other routes exist.
+3. Open the flyer assignment and rubric. Demonstrate Canva **Share → Download** and a Canvas file upload using a teacher sample, then check the submission confirmation.
+4. Keep the teacher-selected accessible design and submission process ready for students who cannot use Canva or upload a file independently.
 
-## Bellringer — Two Transitions (5 min)
+## Do Now: A plan can change (5 min)
 
-Students complete both stems before opening a design tool:
+Ask, “Why might someone update a Personal Graduation Plan?” Use FYF p. 36 to establish that interests, strengths, and requirements can change. Invite one example, then say that the plan helps students select courses that meet graduation requirements without locking in a career.
 
-> Before high school, I need to ___ so I can ___ in high school.
+## Activity 1: Describe two academic requirements (10 min)
 
-> During or after high school, I need to ___ so I can move toward ___.
+Students read the PGP explanation on FYF p. 36 and the typical analyst preparation on the Day 1 guide. In the FYF margin they finish two thoughts:
 
-Model the difference between a vague hope and a requirement to investigate. “Go to college” is a destination. “Compare admission requirements and complete the required high-school courses” is a planning action.
+1. “To finish high school, my plan must include courses that meet graduation requirements, such as ___.”
+2. “After high school, an information security analyst typically needs ___ and ___; other paths may differ.”
 
-## Activity 1 — Original Goal Symbol (15 min)
+Model **English** as a high-school course and **a bachelor's degree plus related experience** as the guide's typical analyst preparation. Ask partners, “Does each sentence name a requirement, or only a wish such as 'go to college'?” A student may use another career with a reliable source and does not need to disclose a personal final choice.
 
-Students finish this sentence first:
+## Activity 2: Improve the Canva flyer (25 min)
 
-> “My symbol represents ___ because after high school I want to ___.”
+Students open their Day 3 Canva drafts and the flyer rubric. They check four parts: audience/event information, two accurate safety actions, readable design, and integrity/privacy. Give students 15 minutes to make one visible improvement from peer or teacher feedback. At minute 30, inspect a sample of designs for unsupported percentages, tiny body text, and personal sign-up details. At minute 38, ask students to zoom out: “Can someone find the action and sign-up method in five seconds?”
 
-They combine two simple shapes or ideas into an original symbol. They do not trace a college, company, or military logo. Paper, Canva, Adobe Express, SVG, and PNG are equal. The teacher scores the goal and explanation, not drawing skill.
+The teacher evaluates the final flyer. Planning stays in FYF p. 35 or the teacher-selected packet; students do not upload or copy those answers again.
 
-If the student's goal is still uncertain, the symbol may represent a direction to investigate, such as helping people, building systems, creating art, repairing technology, or serving the community.
+## Activity 3: Export, upload, and confirm (10 min)
 
-## Activity 2 — Career Journey Update (20 min)
+Students select **Share → Download** in Canva and export a one-page PNG or PDF. They open the [Canvas flyer assignment](https://learn.irvingisd.net/courses/98060/assignments/3094826), upload that file, submit, and check the Canvas confirmation. If a student revises after submitting, they may resubmit the final version under the same assignment. A teacher-approved accessible design is collected through the documented individual route and scored with the same rubric.
 
-Students place the Week 0 response beside the new two-page update. They use one specific activity, career, skill, platform result, or piece of feedback from the six weeks.
+## Teacher Key and Misconceptions
 
-The update asks for:
+- A useful transition statement describes a course or credential requirement. “Go to college” alone does not say what preparation is needed. The analyst example is a typical route, not a permanent career pledge.
+- A national salary or a workbook scenario percentage does not belong on the flyer unless it is sourced and relevant. The flyer can teach safe actions without statistics.
+- Downloading a design is not a Canvas submission. Students must complete the upload and read back the submission status.
+- A public Canva share link is unnecessary. Keep student work within the school account and Canvas submission.
 
-- one idea that changed or became stronger;
-- one specific source of evidence;
-- current interest decision;
-- postsecondary goal or direction;
-- one middle-school-to-high-school action;
-- one high-school-to-postsecondary preparation step; and
-- one next action this school year.
+## Supports and Recovery
 
-Interests are allowed to change. A student may decide IT or cybersecurity is not a fit and still earn full credit.
-
-## Activity 3 — Packet Check and Submission (10 min)
-
-Students place the evidence in this order:
-
-1. Bootcamp plan;
-2. flyer prototype;
-3. original symbol and goal/transition steps; and
-4. Career Journey update.
-
-They use the rubric to check one criterion at a time and mark missing evidence for reassessment. Submit through the **Major 2: Cybersecurity Capstone Evidence Portfolio** Canvas Assignment or the teacher's paper collection route.
-
-During this same packet check, students keep the completed Career Journey Update open and spend 2 to 3 minutes on **Entry 1** of the CCE Six-Weeks Evidence Log. They copy short phrases for: **Career Journey Update**; one transferable skill; the visible action from their specific six-weeks example; one revision or recovery move; and the next action already named on the update. Students return the log to the CCE binder or teacher-designated digital folder. Do not collect, upload, or grade the log as a fifth artifact.
-
-If the log is missing, students write the same five short phrases under **Entry 1 hold** in the CCE notebook or teacher-designated digital folder. They transfer those phrases later from the hold note. They do not reconstruct old work or submit another copy of the Career Journey Update.
-
-## Teacher Scoring Guidance
-
-- Use one 16-point score and the district-band conversion on the rubric.
-- Do not create separate grades for the flyer, symbol, gallery, Xello, H&L, or a live presentation.
-- Paper and digital work score equally.
-- Missing older evidence triggers the normal catch-up/reassessment route, not a machine-access or attendance penalty.
-- Score the two transition steps for specificity and logical connection, not whether the teacher agrees with the student's goal.
-
-## Supports
-
-- Complete the goal sentence orally before designing.
-- Use the two-shape menu, Week 0 page, and completed bootcamp model.
-- Offer English/Spanish field labels, sentence stems, speech-to-text, or a private conference.
-- Provide a recovery box for students who cannot locate Week 0 work.
-
-## If a Tool, Older Artifact, or Student Is Missing
-
-- No design platform: use paper.
-- No laser: no change to the lesson or score.
-- Missing Week 0 page: complete the recovery prompts on the update.
-- Absent: complete the same four-piece packet privately; no public gallery or presentation is required.
+- Put **course, graduation requirement, degree, experience, training** beside the two prompts. Offer oral rehearsal or dictation into the workbook margin.
+- In Canva, model one change at a time: title size, contrast, safety action, or sign-up method.
+- For an absent student, FYF p. 36 and the saved Canva draft are sufficient. The teacher may provide a private accessible design route and confirm one final submission without creating a second grade.

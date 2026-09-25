@@ -405,9 +405,11 @@ def student_copy_action_html(page: Page, routes: dict[str, dict]) -> str:
     if not page_id or page_id not in routes:
         return ""
     row = routes[page_id]
+    if row.get("response_role") == "supplemental":
+        return ""
     title = html.escape(row["title"].rsplit(" | ", 1)[-1])
     url = html.escape(row["google_doc"]["copy_url"], quote=True)
-    label = {"alternate": "Optional alternate", "reference": "Reference copy"}.get(row.get("response_role"), "Make a copy")
+    label = {"alternate": "Optional alternate", "reference": "Reference copy", "supplemental": "Optional teacher resource"}.get(row.get("response_role"), "Make a copy")
     return (
         '<p class="student-copy-action">'
         f'<a class="button primary" href="{url}" target="_blank" rel="noopener">'

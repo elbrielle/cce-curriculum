@@ -39,7 +39,7 @@ RUBRICS = (
     RubricSpec("MINOR 2: IT Salary Comparison and Career-Fit Reflection", "wk2-salary-hoc-rubric.md", 20),
     RubricSpec("MINOR 3: Help Desk Program Evidence and Career Connection", "wk4-demo-rubric.md", 16),
     RubricSpec("MAJOR 1: App Design and Emerging-Career Evidence Packet", "wk3-app-design-rubric.md", 16),
-    RubricSpec("MAJOR 2: Cybersecurity Capstone Evidence Portfolio", "wk5-capstone-portfolio-rubric.md", 16),
+    RubricSpec("MAJOR 2: Canva Cybersecurity Bootcamp Flyer", "wk5-capstone-portfolio-rubric.md", 16),
     RubricSpec("MINOR 1: Nursing Route and Handoff", "2sw-wk3-handoff-rubric.md", 16),
     RubricSpec("MINOR 2: Health Career Evidence Check", "2sw-wk4-evidence-check-rubric.md", 16),
     RubricSpec("MINOR 3: Communication and Goal Synthesis", "2sw-wk5-communication-goal-rubric.md", 16),
@@ -216,7 +216,7 @@ def conversion_note(raw_points: int) -> str:
     )
 
 
-def with_conversion_note(description: str | None, raw_points: int) -> str:
+def with_conversion_note(description: str | None, raw_points: int, *, flyer: bool = False) -> str:
     body = description or ""
     body = re.sub(
         rf'<div data-cce-rubric-note="{re.escape(NOTE_MARKER)}".*?</div>',
@@ -224,6 +224,12 @@ def with_conversion_note(description: str | None, raw_points: int) -> str:
         body,
         flags=re.I | re.S,
     ).rstrip()
+    if flyer:
+        return body + (
+            f'<div data-cce-rubric-note="{NOTE_MARKER}"><p><strong>How this is scored:</strong> '
+            'Use the four flyer criteria below to check your work. Your teacher records '
+            'one Major 2 grade out of 100.</p></div>'
+        )
     return body + conversion_note(raw_points)
 
 
@@ -394,6 +400,11 @@ async def run(token: str, assignment_title: str | None = None) -> dict:
                 )
             title = RUBRIC_PREFIX + assessment.title
             existing = [rubric for rubric in rubrics if rubric.get("title") == title]
+            if assessment.title == "MAJOR 2: Canva Cybersecurity Bootcamp Flyer" and not existing:
+                existing = [
+                    rubric for rubric in rubrics
+                    if rubric.get("title") == "CCE | MAJOR 2: Cybersecurity Capstone Evidence Portfolio"
+                ]
             if len(existing) > 1:
                 raise ValueError(f"duplicate Canvas rubrics named {title!r}")
             if existing:
@@ -431,7 +442,8 @@ async def run(token: str, assignment_title: str | None = None) -> dict:
                 f"/courses/{COURSE_ID}/assignments/{assignment['id']}",
                 data={
                     "assignment[description]": with_conversion_note(
-                        assignment.get("description"), raw_total
+                        assignment.get("description"), raw_total,
+                        flyer=assessment.title == "MAJOR 2: Canva Cybersecurity Bootcamp Flyer",
                     ),
                     "assignment[points_possible]": "100",
                     "assignment[grading_type]": "points",

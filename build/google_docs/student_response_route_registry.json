@@ -2547,6 +2547,7 @@
     {
       "route_id": "1SW-Wk5-Day3",
       "day_key": "1SW-Wk5-Day3",
+      "response_role": "supplemental",
       "six_weeks": 1,
       "week": 5,
       "day": 3,
@@ -2640,7 +2641,7 @@
           },
           "student": {
             "page_id": 1109900,
-            "url": "student-1sw-wk5-day-3-community-cybersecurity-bootcamp",
+            "url": "student-1sw-wk5-day-3-canva-cybersecurity-bootcamp-flyer",
             "expected_body_sha256": "cb94ae2619744f6784b4047187f568d44395a47c755b0107867786750ef467f4",
             "published_readback": false
           }
@@ -2728,6 +2729,7 @@
     {
       "route_id": "1SW-Wk5-Day5",
       "day_key": "1SW-Wk5-Day5",
+      "response_role": "supplemental",
       "six_weeks": 1,
       "week": 5,
       "day": 5,
@@ -2836,7 +2838,7 @@
           },
           "student": {
             "page_id": 1109904,
-            "url": "student-1sw-wk5-day-5-capstone-goal-and-reflection",
+            "url": "student-1sw-wk5-day-5-improve-and-submit-the-canva-flyer",
             "expected_body_sha256": "df04cdfc68ebf7e1c5f0e2117855ae34e9b0b9f6c605a00cf99e78de660d812a",
             "published_readback": false
           }

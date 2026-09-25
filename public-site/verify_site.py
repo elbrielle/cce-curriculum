@@ -43,6 +43,8 @@ def verify(site: Path) -> None:
         problems.append("student response-route source is not the current non-mutating draft")
     expected_copy_actions: dict[str, tuple[str, str]] = {}
     for row in route_payload.get("routes", []):
+        if row.get("response_role") == "supplemental":
+            continue
         source = Path(row["source"]["day_source"]["path"])
         try:
             relative = source.relative_to("docs")
@@ -60,14 +62,14 @@ def verify(site: Path) -> None:
             f"day-{day_match.group(1)}",
             "index.html",
         ).as_posix()
-        label = {"alternate": "Optional alternate", "reference": "Reference copy"}.get(row.get("response_role"), "Make a copy")
+        label = {"alternate": "Optional alternate", "reference": "Reference copy", "supplemental": "Optional teacher resource"}.get(row.get("response_role"), "Make a copy")
         expected_copy_actions[output] = (
             row["google_doc"]["copy_url"],
             f"{label}: {row['title'].rsplit(' | ', 1)[-1]}",
         )
-    if len(expected_copy_actions) != 180:
+    if len(expected_copy_actions) != 178:
         problems.append(
-            f"expected public copy-action routes={len(expected_copy_actions)} expected=180"
+            f"expected public copy-action routes={len(expected_copy_actions)} expected=178"
         )
     if manifest.get("week_count") != 36:
         problems.append(f"week_count={manifest.get('week_count')} expected=36")
@@ -263,15 +265,14 @@ def verify(site: Path) -> None:
 
     if week_download_sections != 36:
         problems.append(f"week download sections={week_download_sections} expected=36")
-    if student_doc_actions != 180:
+    if student_doc_actions != len(expected_copy_actions):
         problems.append(
-            f"student Google Doc actions={student_doc_actions} expected=180"
+            f"student Google Doc actions={student_doc_actions} expected={len(expected_copy_actions)}"
         )
-    # A multi-day packet keeps one Doc across the days that use it (1SW Wk5 Days 1 and 4 share the
-    # Cybersecurity Career Route Guide), so unique links can be fewer than 180 lessons.
-    if not 178 <= len(student_doc_urls) <= 180:
+    # A multi-day packet can share one Doc across the days that use it.
+    if not len(expected_copy_actions) - 2 <= len(student_doc_urls) <= len(expected_copy_actions):
         problems.append(
-            f"unique student Google Doc links={len(student_doc_urls)} expected=178..180"
+            f"unique student Google Doc links={len(student_doc_urls)} expected near {len(expected_copy_actions)}"
         )
 
     if problems:

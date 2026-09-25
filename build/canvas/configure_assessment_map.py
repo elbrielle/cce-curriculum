@@ -98,10 +98,10 @@ ASSESSMENTS = (
         5,
     ),
     Assessment(
-        "1SW Wk5: Cybersecurity, Favorite Clusters, and Capstone",
-        "MAJOR 2: Cybersecurity Capstone Evidence Portfolio",
+        "1SW Wk5: Cybersecurity and Capstone",
+        "MAJOR 2: Canva Cybersecurity Bootcamp Flyer",
         MAJOR_GROUP,
-        5,
+        3,
     ),
     Assessment(
         "2SW Wk3: Nursing Science - Routes, Simulation, and Handoff",
@@ -313,6 +313,14 @@ async def ensure_group(client, groups: list[dict], name: str, weight: int) -> di
 
 
 def default_description(assessment: Assessment) -> str:
+    if assessment.title == "MAJOR 2: Canva Cybersecurity Bootcamp Flyer":
+        return (
+            "<p>Plan the fictional event in <em>Find Your Future</em> p. 35. "
+            "Use the bootcamp packet's flyer checklist to check your design. "
+            "Create one final Canva flyer with two accurate safety actions, clear event "
+            "details, and a teacher-approved sign-up method. Download PNG or PDF and upload "
+            "that file here. Keep your plan in FYF or your teacher-provided packet; upload only the flyer.</p>"
+        )
     label = "Minor" if assessment.group == MINOR_GROUP else "Major"
     return (
         f"<p><strong>Mapped {label} assessment.</strong> Submit the evidence named in "
@@ -332,6 +340,11 @@ async def ensure_student_submission_link(
         raise ValueError(f"student page URL missing for {assessment.title!r}")
     page = await api(client, "GET", f"/courses/{COURSE_ID}/pages/{page_url}")
     body = page.get("body") or ""
+    if (
+        assessment.title == "MAJOR 2: Canva Cybersecurity Bootcamp Flyer"
+        and f"/courses/{COURSE_ID}/assignments/{assignment['id']}" in body
+    ):
+        return
     label = "minor" if assessment.group == MINOR_GROUP else "major"
     submission_types = set(assignment.get("submission_types") or [])
     route_labels = []
