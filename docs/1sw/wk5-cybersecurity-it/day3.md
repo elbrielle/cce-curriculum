@@ -28,7 +28,7 @@
 
 ## Do Now: What happens before a safe lesson? (5 min)
 
-Ask, “Before you teach someone how to spot a scam, what would you check?” Take two examples, such as checking a safety tip against the workbook, testing a demonstration, or removing private information. Connect those actions to work ethic: the audience may not see the checks, but the checks make the teaching reliable.
+Define **work ethic** as doing careful work and following through, and **integrity** as acting honestly even when no one sees the choice. Ask, “Before you teach someone how to spot a scam, what would you check?” Take two workplace examples, such as an analyst checking a safety tip, testing a demonstration, or removing private information. Ask students which example shows work ethic and which shows integrity, and listen for an action and a reason.
 
 ## Activity 1: Read the need and set the boundaries (8 min)
 
